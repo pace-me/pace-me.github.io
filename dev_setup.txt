@@ -1,0 +1,268 @@
+QUICK LOCAL RUN (FROM GCLOUD):
+#!/bin/bash
+echo 'Killing current dev server'
+echo 'Removing old PWP0, moving current PWP to PWP0, cloning new PWP'
+echo 'Starting virtualenv, running dev server'
+cd ~
+sudo pkill python3.6
+sudo rm -R practicewithpros0
+sudo mv practicewithpros practicewithpros0
+git clone https://05ac659ac6a28b2481a2e07fb529af42cb1dff6b@github.com/Diamante-GIT/practicewithpros.git
+echo 'Copying in movie file'
+sudo cp movie.MP4 practicewithpros/static/home/videos/
+cd practicewithpros
+sudo chmod -R 777 .
+workon pwp
+sudo ~/.virtualenv/pwp/bin/python3.6 manage.py runserver 0:80 &>/dev/null &
+deactivate
+cd ~
+jobs
+disown
+echo ''
+
+
+=========================
+ctrl-z
+bg
+=========================
+
+
+
+git clone https://github.com/Diamante-GIT/practicewithpros.git
+
+CHASE DEV RUN:
+python manage.py runserver 0:9001
+
+
+HR3 Project Setup
+
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev libjpeg-dev libjpeg8-dev
+sudo apt-get install python3.6-dev python3.6
+
+pip3 install virtualenv
+
+sudo mkdir ~/workspace/hr3project
+
+cd ~/workspace/hr3project
+
+sudo virtualenv ~/.virtualenvs/hr3 -p /usr/bin/python3.6
+
+workon hr3
+
+sudo chmod 777 -R ~/.virtualenvs/hr3
+pip install Django==3.0.2
+
+//pip3 install Django==1.11
+
+django-admin.py startproject --template=https://github.com/codezeus/django-project-template/archive/master.zip --extension=py,gitignore,coveragerc,json,md,sh,js,example,ini --name=Makefile,postactivate hr3 .
+
+pip3 install rcssmin --install-option="--without-c-extensions"
+pip3 install rjsmin --install-option="--without-c-extensions"
+pip3 install django-compressor --upgrade
+
+sudo apt-get install npm node.js nodejs-legacy
+
+sudo make init
+
+python manage.py runserver_plus
+
+
+***Server runs!
+Now let's get it into LiClipse so we can actually develop...
+
+
+Start LiClipse (I always run as admin)
+
+Set workspace to ~/workspace
+
+File - New Project - name = hr3project (we're using the same folder)
+
+Right Click on Project - PyDev - set as PyDev Project
+
+It'll prompt you to configure the interpreter:
+
+/home/hr3/.virtualenvs/hr3/bin/python3.6
+Apply, Apply, OK
+
+Right Click on Project - PyDev - set as Django Project
+
+Right click on Project - Properties - PyDev - PYTHON PATH
+	Add base project folder to PATH
+	PyDev - Django
+		manage.py
+		hr3.settings.base
+
+
+Right click on new project, Import - File System
+
+From Directory: /home/hr3/workspace/hr3project 
+
+Check the box on the left to select all
+
+Check Overwrite existing resources
+
+
+
+Grammar Version - 3.6
+
+*Click here to configure interpreter
+	Name it whatever, but point it to the python3.6 inside your virtualEnv
+		/home/hr3/.virtualenvs/hr3/bin/python3.6
+	
+
+
+
+
+Set workspace to a different location than earlier - I use lworkspace
+    Do File - new - PyDev Project
+		(totally empty aside from name = hr3)
+
+Open that project
+
+Right click on project - Import - File System
+
+From directory: ~/workspace/hr3 and select that folder and all subfolders/documents (do the manage.py is in the topmost level)
+
+
+NOW your project is in ~/lworkspace/hr3
+
+Right click on project in LiClipse - PyDev - Apply 2to3 - "-w -v" - OK
+
+
+You just converted django-project-template to Python 3!
+
+
+A couple more things... inside your virtualenv run these: 
+
+
+
+
+
+
+Cool, your server works. But now we need to set up LiClipse to develop from:
+
+
+Right click on project - PyDev - Set as Django Project
+
+
+Now right click, Project properties:
+
+PyDev - Inerpreter - Click here to configure an interpreter
+
+	Intepreters - Python Interpreter
+
+		You only need one - make sure it's point to the bin/python3.6 inside your virtualEnv
+			eg /home/hr3/.virtualenvs/hr3/bin/python3.6
+
+		Apply, let it set up Packages...
+
+	Ok/Close - back to Project Properties
+
+PyDev - PYTHONPATH
+	Source Folders - 
+		Might want to make sure project root is under source folders
+		The rest of your PATH is taken care of already by the interpreter
+
+	APPLY
+	Apply and Close
+
+Project properties again:
+
+PyDev - Django
+	manage.py = manage.py
+	settings module = base
+
+	APPLY
+	Apply and Close
+
+
+
+certifi==2019.6.16
+chardet==3.0.4
+Django==2.2.5
+django-appconf==1.0.3
+django-classy-tags==0.9.0
+django-cms==3.7.0
+django-filer==1.5.0
+django-formtools==2.1
+django-js-asset==1.2.2
+django-mptt==0.10.0
+django-polymorphic==2.0.3
+django-sekizai==1.0.0
+django-treebeard==4.3
+djangocms-admin-style==1.4.0
+djangocms-attributes-field==1.1.0
+djangocms-video==2.1.1
+easy-thumbnails==2.6
+idna==2.8
+Pillow==6.1.0
+PyJWT==1.7.1
+pytz==2019.2
+requests==2.22.0
+six==1.12.0
+sqlparse==0.3.0
+Unidecode==1.0.23
+urllib3==1.25.3
+
+
+
+If you get ImagetKit missing:
+	pip3 uninstall imagekit
+If you get imagekit.models missing:
+	pip3 install django-imagekit
+
+
+
+Now, port from P2 to P3. This is left as an exercise for the reader (but do consisder you requirements.txt)
+
+I think only one of these two has no V3 version:
+
+django-supervisor==0.4.0
+supervisor==3.3
+
+# Python
+pillow
+uuid
+
+# Django Specific
+Django==1.11
+django-suit==0.2.23
+django-registration-redux==1.4
+django-crispy-forms==1.6.1
+django-imagekit==3.3
+django-extensions==1.6.7
+django-toolset==0.1.5
+django_compressor==2.1
+
+# AWS & DB
+boto==2.45.0
+redis==2.10.5
+
+# Utility
+bpython==0.16
+Fabric==1.13.1
+Werkzeug==0.11.15
+
+# Testing
+coverage==4.3
+mock==2.0.0
+pytest==3.0.6
+pytest-cov==2.4.0
+pytest-django==2.9
+factory_boy==2.8
+
+# Services
+django-supervisor==0.4.0
+supervisor==3.3
+gunicorn==19.6
+
+
+
+
+**Issues? try:
+sudo pip install django==1.11 again
+add export PYTHONPATH=/usr/local/lib/python3.6/dist-packages to .bashrc and restart terminal
+
+restart machine 
+
+
