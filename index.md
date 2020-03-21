@@ -1001,4 +1001,4 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
         navMobile = document.getElementById('navMobile');
         navDesktop.hidden = true;
         navMobile.hidden = false; -->
-{% endblock %}
+
