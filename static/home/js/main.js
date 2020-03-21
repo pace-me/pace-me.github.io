@@ -1,7 +1,7 @@
 /*
  * Theme Name: Vniapp Onepage  template
  * File name: main.js
- * Theme URL: http://www.kamric.com/magic/
+ * Theme URL: https://www.kamric.com/magic/
  * Description: Vniapp Onepage template
  * Author: Kamric
  * Author URL: https://themeforest.net/user/kamric

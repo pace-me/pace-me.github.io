@@ -1,7 +1,7 @@
 /*
 * Theme Name: VniApp onepage template
 * File name: style.css
-* Theme URL: http://www.kamric.com/aniapp/
+* Theme URL: https://www.kamric.com/aniapp/
 * Description: VniApp Onepage teamplates.
 * Author: Kamric
 * Author URL: https://themeforest.net/user/kamric
@@ -59,7 +59,7 @@
 /*        magic CSS resetter
 /*------------------------------------------*/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* https://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -608,8 +608,8 @@ padding-bottom: 80px;
 /*	      /* 01.General & Basic Styles /*
 /*------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,900,100,600,400,500,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,900,100,600,400,500,800);
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Bungee+Inline|Fredericka+the+Great|Limelight|Lobster|Monoton);
 body {
 	font-family: Times New Roman;
