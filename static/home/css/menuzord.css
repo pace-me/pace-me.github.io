@@ -104,7 +104,7 @@ License: https://codecanyon.net/licenses
 /* Menu items */
 .menuzord-menu > li{
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 .menuzord-menu > li > a{
 	padding: 26px 16px;
@@ -156,7 +156,7 @@ License: https://codecanyon.net/licenses
 	color: #888;
 	text-decoration: none;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	clear: both;
 	position: relative;
 	outline: 0;
@@ -166,10 +166,7 @@ License: https://codecanyon.net/licenses
 	transition: padding .2s linear;
 }
 /* Hover state (dropdown items) */
-.menuzord-menu ul.dropdown li:hover > a{
 
-
-}
 
 /* Dropdown left alignment */
 .menuzord-menu ul.dropdown.dropdown-left{

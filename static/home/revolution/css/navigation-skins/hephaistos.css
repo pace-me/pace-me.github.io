@@ -44,8 +44,6 @@ website:    https://www.themepunch.com
 
 
 /* BULLETS */
-.hephaistos.tp-bullets {
-}
 .hephaistos.tp-bullets:before {
 	content:" ";
 	position:absolute;
@@ -72,10 +70,6 @@ website:    https://www.themepunch.com
 .hephaistos .tp-bullet.selected {
 	background:#fff;
     border-color:#000;
-}
-.hephaistos .tp-bullet-image {
-}
-.hephaistos .tp-bullet-title {
 }
 
 

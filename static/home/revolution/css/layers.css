@@ -3433,7 +3433,6 @@ website:   	https://www.themepunch.com
         line-height: px;
         font-weight: 400;
         font-style: normal;
-        font-family: ;
         padding: 0px 0px 0px 0px;
         text-decoration: none;
         text-align: left;
@@ -3505,7 +3504,6 @@ website:   	https://www.themepunch.com
         border-width: 0px;
         border-radius: 0 0 0 0px;
         text-align: center;
-        type: text
     }
     .tp-caption.Woo-Rating,
     .Woo-Rating {
@@ -3523,7 +3521,6 @@ website:   	https://www.themepunch.com
         border-width: 0px;
         border-radius: 0 0 0 0px;
         text-align: left;
-        type: text
     }
     .tp-caption.Woo-SubTitle,
     .Woo-SubTitle {
@@ -3542,7 +3539,6 @@ website:   	https://www.themepunch.com
         border-radius: 0 0 0 0px;
         text-align: center;
         letter-spacing: 2px;
-        type: text
     }
     .tp-caption.Woo-PriceLarge,
     .Woo-PriceLarge {
@@ -3560,7 +3556,6 @@ website:   	https://www.themepunch.com
         border-width: 0px;
         border-radius: 0 0 0 0px;
         text-align: center;
-        type: text
     }
     .tp-caption.Woo-ProductInfo,
     .Woo-ProductInfo {
@@ -3578,7 +3573,6 @@ website:   	https://www.themepunch.com
         border-width: 1px;
         border-radius: 4px 4px 4px 4px;
         text-align: left;
-        type: button
     }
     .tp-caption.Woo-ProductInfo:hover,
     .Woo-ProductInfo:hover {
@@ -3606,7 +3600,6 @@ website:   	https://www.themepunch.com
         border-width: 1px;
         border-radius: 4px 4px 4px 4px;
         text-align: left;
-        type: button
     }
     .tp-caption.Woo-AddToCart:hover,
     .Woo-AddToCart:hover {
@@ -3634,7 +3627,6 @@ website:   	https://www.themepunch.com
         border-width: 0px;
         border-radius: 0 0 0 0px;
         text-align: center;
-        type: text
     }
     .tp-caption.Woo-SubTitle,
     .Woo-SubTitle {
@@ -3653,7 +3645,6 @@ website:   	https://www.themepunch.com
         border-radius: 0 0 0 0px;
         text-align: center;
         letter-spacing: 2px;
-        type: text
     }
     .tp-caption.Woo-PriceLarge,
     .Woo-PriceLarge {
@@ -3671,7 +3662,6 @@ website:   	https://www.themepunch.com
         border-width: 0px;
         border-radius: 0 0 0 0px;
         text-align: center;
-        type: text
     }
     .tp-caption.Woo-ProductInfo,
     .Woo-ProductInfo {
@@ -3689,7 +3679,6 @@ website:   	https://www.themepunch.com
         border-width: 1px;
         border-radius: 4px 4px 4px 4px;
         text-align: left;
-        type: button
     }
     .tp-caption.Woo-ProductInfo:hover,
     .Woo-ProductInfo:hover {
@@ -3717,7 +3706,6 @@ website:   	https://www.themepunch.com
         border-width: 1px;
         border-radius: 4px 4px 4px 4px;
         text-align: left;
-        type: button
     }
     .tp-caption.Woo-AddToCart:hover,
     .Woo-AddToCart:hover {

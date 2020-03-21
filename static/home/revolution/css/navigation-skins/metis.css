@@ -128,7 +128,7 @@ website:    https://www.themepunch.com
         width: 50px;
         margin-right: 17px;
         display: inline-block;
-        float: left;
+        /* float: left; */
     }
     .metis .tp-tab-mask {
         padding-left: 20px;
@@ -147,7 +147,7 @@ website:    https://www.themepunch.com
         width: 1px;
         margin-top: 5px;
         display: inline-block;
-        float: left;
+        /* float: left; */
     }
     .metis .tp-tab-title {
         color: #fff;
