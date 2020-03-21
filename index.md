@@ -1,6 +1,3 @@
-{% block content %}
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
