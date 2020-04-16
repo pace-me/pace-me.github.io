@@ -67,7 +67,7 @@
 <div id="fakehome" class="navbar navbar-custom top-nav-collapse navbar4k" role="navigation" style="display: contents !important; position: absolute !important; max-width: 100% !important;">
     <div id="mySidenavfake" class="sidenav fakesidenav">
         <a onclick="closeNav()" class="active page-scroll" href="#tophome">➤Home</a>
-        <a onclick="closeNav()" class="page-scroll" href="#apptarget2">➤App</a>
+        <a onclick="closeNav()" class="page-scroll" href="#app">➤App</a>
         <a onclick="closeNav()" class="page-scroll" href="#videos">➤Videos</a>
         <a onclick="closeNav()" class="page-scroll" href="#virtual-coaching">➤Virtual Coaching</a>
         <a onclick="closeNav()" class="page-scroll" href="#about-review-full">➤Connect</a>
@@ -81,7 +81,7 @@
             
             <ul id="navDesktopfake" class="nav navbar-nav desktop navbar-nav-desktop">
                 <li class="active"> <a style="font-size: 20px;" class="page-scroll" href="#tophome">Home</a> </li>
-                <li> <a style="font-size: 20px;" class="page-scroll" href="#apptarget2">App</a> </li>
+                <li> <a style="font-size: 20px;" class="page-scroll" href="#app">App</a> </li>
                 <li> <a style="font-size: 20px;" class="page-scroll" href="#videotarget">Videos</a> </li>
                 <li> <a style="font-size: 20px;" class="page-scroll" href="#virtual-coaching">Virtual Coaching</a> </li>
                 <li> <a style="font-size: 20px;" class="page-scroll" href="#about-review-full">Connect</a> </li>
@@ -100,7 +100,7 @@
     <div id="mySidenav" class="sidenav">
 <!--         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> meet-the-pros-m -->
         <a onclick="closeNav()" class="active page-scroll" href="#tophome">➤Home</a>
-        <a onclick="closeNav()" class="page-scroll" href="#apptarget2" >➤App</a>
+        <a onclick="closeNav()" class="page-scroll" href="#app" >➤App</a>
         <a onclick="closeNav()" class="page-scroll" href="#videos">➤Videos</a>
         <a onclick="closeNav()" class="page-scroll" href="#virtual-coaching">➤Virtual Coaching</a>
         <a onclick="closeNav()" class="page-scroll" href="#about-review-full">➤Connect</a>
@@ -115,7 +115,7 @@
             
             <ul id="navDesktop" class="nav navbar-nav desktop navbar-nav-desktop">
                 <li class="active"> <a style="font-size: 20px;" class="page-scroll" href="#tophome">Home</a> </li>
-                <li> <a style="font-size: 20px;" class="page-scroll" href="#apptarget2">App</a> </li>
+                <li> <a style="font-size: 20px;" class="page-scroll" href="#app">App</a> </li>
                 <li> <a style="font-size: 20px;" class="page-scroll" href="#videos">Videos</a> </li>
                 <li> <a style="font-size: 20px;" class="page-scroll" href="#virtual-coaching">Virtual Coaching</a> </li>
                 <li> <a style="font-size: 20px;" class="page-scroll" href="#about-review-full">Connect</a> </li>
@@ -138,8 +138,11 @@
          <!-- <video style="padding-top:0px; object-fit: cover;" class="center-video" src="static/home/videos/movie.MP4" controls width="100%">⁪</video> -->
         
         <!-- <img id="homevideoplaybg" align="center" class="homevideoplaybg" src="static/home/videos/videosnap.png" alt=""> poster="static/home/videos/videosnap.png"-->
-        
-        <iframe id="ytplayer" class="homevideo" type="text/html" src="https://www.youtube-nocookie.com/embed/oWICU7hF0-M?fs=0&amp;rel=0&amp;modestbranding=1"></iframe>
+        <video width="400" controls poster="static/home/videos/videosnap.png">
+          <source src="static/home/videos/Clayton.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <!-- <iframe id="ytplayer" class="homevideo" type="text/html" src="https://www.youtube-nocookie.com/embed/oWICU7hF0-M?fs=0&amp;rel=0&amp;modestbranding=1"></iframe> -->
 <!--         <span class="desktopbrs"><img onClick="playVid()" id="homevideoplaybtn" class="homevideoplaybtn active" src="static/home/img/3favicon.ico" alt=""></span> -->
         
 
@@ -156,15 +159,17 @@
 <!-- End-Header --> 
 
 <!-- Feature  -->
-<!-- <div id="apptarget2"></div>
+<!-- <div id="app"></div>
 <span class="desktopbrs"></span>
 <br><br><br> -->
       
 
 <div id="how-it-works">
 
-  <div id="apptarget" class="container">
-
+  <div id="app" class="container">
+    <br>
+    <br>
+    <br>
     <div class="section-title center text-center">
       <!-- <span class="desktopbrs"  ><br><br><br></span> -->
 
@@ -270,8 +275,10 @@
 
 <div class="container">
 <div class="section-title center">
+  <br>
+  <br>
+  <br>
 <h2> <strong>Featured Video Categories</strong></h2>
-<br>
 <!-- <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting
     industry. <strong>Lorem Ipsum has been the industry's standard dummy </strong>text
     ever since the 1500s, when an unknown printer took a galley of type and
