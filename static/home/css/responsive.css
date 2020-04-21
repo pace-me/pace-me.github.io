@@ -823,27 +823,35 @@ float: right;font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 0p
 /*------------------------------------------*/
 @media(min-width:2159px) {
 
-.navbar-nav
-{
-    float: left;
-    margin: 0;
-    padding-top: 90px !important;
+    .navbar-nav
+    {
+        float: left;
+        margin: 0;
+        padding-top: 90px !important;
+    }
+
+    .navbar-nav-desktop {
+        padding-top: 92px;
+    }
+
+    .logoimg
+    {
+        width: 23%;
+    }
+
+    .navbar4k
+    {
+        background: rgba(0, 0, 0, 0) none no-repeat fixed center center / cover;
+    }
+
 }
 
-.navbar-nav-desktop {
-    padding-top: 92px;
+.homevideorow{
+    background-color: #000;
+    max-height: 900px !important;
 }
 
-.logoimg
-{
-    width: 23%;
+.homevideodiv{
+    max-width: 1600px !important;
+    margin: 0 auto;
 }
-
-.navbar4k
-{
-    background: rgba(0, 0, 0, 0) none no-repeat fixed center center / cover;
-}
-
-}
-
-
