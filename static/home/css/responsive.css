@@ -109,9 +109,12 @@ p.para{ line-height:25px; font-size:15px;}
 .roll-t-3 h1{ font-size:35px;}
 .roll-t-4 h1{ font-size:35px;}
 
-.logoimg {width: 60% !important}
+/* .logoimg {width: 60% !important} */
 .navbar-nav-desktop{padding: 0 10px 0 0 !important}
 
+.carousel {
+    margin-top: 50px;
+}
 
 .homevideodiv{
     max-height: 42.2% !important;
@@ -159,7 +162,7 @@ p.para{ line-height:25px; font-size:15px;}
 .feature-icon-left-more .feature-icon i.fa { float: left;  }
 .feature-icon-left-more-app .feature-content { padding-left:90px; padding-bottom:20px; padding-top:35px; text-align:left; padding-right:0px; }
 .feature-icon-left-more-app .feature-icon i.fa { float:left; font-size:28px; color:#000; margin:50px 0 0 0; height:55px; width:55px; padding:14px 0 0 0; border-radius:10%; border:1px solid #000; }
-.logoimg {width: 50% !important}
+/* .logoimg {width: 50% !important} */
 /* .homevideodiv{
     height: unset !important;
     margin-top: 16% !important;
@@ -239,7 +242,7 @@ p.para{ line-height:25px; font-size:15px;}
     margin-top: -250px;
 }
 .sur-m img{ display:none;}
-.logoimg {width: 60% !important}
+/* .logoimg {width: 60% !important} */
 }
 /*------------------------------------------*/
 /*	       Max Width "768px"
@@ -343,7 +346,7 @@ footer .subscribe_now form{ margin-left:20px;}
 }
 
 .comingsoon {
-  width: 17%;
+  max-width: 17%;
 }
 .leadbot{
   padding-right: 0px;
@@ -409,7 +412,7 @@ footer .subscribe_now form{ margin-left:20px;}
 .benefit-heading h3{ padding:30px 0 0 0;}
 .work-info > h5{ font-size:15px;}
 
-.logoimg {width: 60% !important}
+/* .logoimg {width: 60% !important} */
 
 /* .homevideo{
   background-image: unset !important;
@@ -492,7 +495,7 @@ header .intro-text .intro-heading {font-size:30px;}
 .roll-t-3 p{ font-size:11px; letter-spacing:2px;}
 .roll-t-4 p{ font-size:11px; letter-spacing:2px;}
 
-.logoimg {width: 60% !important}
+/* .logoimg {width: 60% !important} */
 
 .swiper-wrapper {padding-bottom: 120px !important;}
 
@@ -848,10 +851,20 @@ float: right;font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 0p
 
 .homevideorow{
     background-color: #000;
-    max-height: 900px !important;
+    max-height: 90.2vh !important;
 }
 
 .homevideodiv{
-    max-width: 1600px !important;
+    max-width: 1711px !important;
     margin: 0 auto;
+}
+
+.about-review-full {
+    min-height: 91vh;
+}
+
+span .comingsoon {
+    margin: 0px 40px 0px 10px;
+    max-height: 54px;
+    max-width: 121px;
 }
