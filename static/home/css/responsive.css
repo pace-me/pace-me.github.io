@@ -863,7 +863,7 @@ float: right;font-size: 20px;margin-bottom: 0px;margin-right: 0px;margin-top: 0p
     min-height: 91vh;
 }
 
-span .comingsoon {
+.navbar span .comingsoon {
     margin: 0px 40px 0px 10px;
     max-height: 54px;
     max-width: 121px;
