@@ -111,37 +111,6 @@ table {
 /*------------------------------------------*/
 /*      Chase Edits - MEET THE PROS
 /*------------------------------------------*/
-.homevideoplaybg{
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  max-width: 100%;
-  max-height: 100%;
-  position: absolute;
-  margin: 0 auto;
-  z-index: -1;
-  -webkit-transition: all 0.1s;
-  -moz-transition: all 0.1s;
-  -o-transition: all 0.1s;
-  transition: all 0.1s;
-    height: 711px;
-    text-align: center;
-    width: 1264px;
-    vertical-align: middle;
-}
-
-.homevideoplaybtn{
-    display: block;
-    left: 0;
-    margin: 0 auto;
-    padding: 8px 16px;
-    position: absolute;
-    right: 0;
-    top: 50%;
-}
-
-
 .founders2 {display: block !important; padding-bottom: 25px !important;}
 
 .founders1x2 {display: none !important; padding-bottom: 25px !important;}
@@ -152,25 +121,11 @@ table {
   padding: 10px;
 }
   
-/* .foundersheader{
-  margin-bottom: -4%;
-
-} */
-  
 .procite{
     font-size: xx-large;
 }
 
 .mobilebrs{display: none !important;}
-.fakesidenav {
-padding-left: 0px !important;
-padding-right: 0px !important;
-}
-.navbar-collapse-fake {
-padding-left: 0px !important;
-padding-right: 0px !important;
-margin-right: 0px !important;
-}
 
 .footerlogo{
 display: flex; 
@@ -180,7 +135,6 @@ margin: auto;
 padding-bottom: 80px;
 }
 
-
 .comingsoon {
   width: 10%;
 }
@@ -188,10 +142,7 @@ padding-bottom: 80px;
 .comingsoonphone {
     width: 60%;
     position: relative;
-    /* margin-top: 40%; */
-    /* padding-right: 50%; */
     transform: translate(0,250%);
-    /* padding-top: 30%; */
 }
 
 .meettheprosmid {
@@ -503,11 +454,6 @@ padding-bottom: 80px;
 
 }
 
-.center-video {
-    margin-left: auto;
-    margin-right: auto;
-    display: block
-}
 .navbar-nav-desktop{
     padding-top: 58px; 
     padding-bottom: 0px;
@@ -519,35 +465,11 @@ padding-bottom: 80px;
 .signupinput::placeholder{
     color: white;
 }
-.homevideodiv{
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-/* 
-	height: 100%; 
-	padding-top: 0px; 
-	width: 100%; 
-	margin-top: 0px;  */ 
-.homevideo{
-	position: absolute;
-	top: 0;
-    left: 0;
-	background-image: url(../img/hero/review-bg.jpg) !important;
-	/* height: unset;
-	width: 100%; */
-	display: relative;
-	max-height: 100%; 
-	max-width: 100%; 
-	height: 100%;  
-	/* padding-top: 6%; //2.85*/
-}
   
-  .navbar{
-    background-image: url(../img/hero/review-bg.jpg) !important;
-    opacity: 1.0;
-  }
+.navbar{
+	background-image: url(../img/hero/review-bg.jpg) !important;
+	opacity: 1.0;
+}
   
 
 .sidenav {
@@ -1360,13 +1282,9 @@ line-height: 55px;
 	line-height: 70px;
 }
 @media (max-width: 768px) {
- #owl-slider .item .slider-info h1 {
- font-size: 30px;
-}
-  /* .homevideo{
-    height: unset;
-    width: 100%;
-  } */
+	#owl-slider .item .slider-info h1 {
+		font-size: 30px;
+	}
 }
 #owl-slider .item .slider-info h5 {
 	font-size: 13px;
@@ -1384,19 +1302,14 @@ line-height: 55px;
  #owl-slider .item .slider-info {
  width: 750px;
 }
-  /* .homevideo{
-    height: 100%;
-    width: 100%;
-  } */
+
 }
 @media (max-width: 768px) {
  #owl-slider .item .slider-info {
  top: 30%;
  width: 100%;
 }
- /* .homevideo{
-    max-height: 70%;
-  }  */
+
 }
 @media (min-width: 300px) {
  #owl-slider .item .slider-info {
@@ -1428,10 +1341,7 @@ line-height: 55px;
  #owl-slider.owl-theme .owl-nav [class*="owl-"] {
  display: none;
 }
-  /* .homevideo{
-    height: 90%;
-    width: 100%;
-  } */
+
 }
 #owl-slider.owl-theme.owl-nav-dark .owl-nav [class*="owl-"] {
  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -1572,7 +1482,7 @@ line-height: 55px;
 	position: relative;
 	width: 100%;
 }
-.hero {
+/* .hero {
 	display: table;
 	height: 100%;
 	padding: 0;
@@ -1794,7 +1704,7 @@ line-height: 55px;
 	position: absolute;
 	top: 0;
 	width: 100%;
-}
+} */
 /*------------------------------------------*/
 /*	       /* 08.Background Roted */
 /*------------------------------------------*/

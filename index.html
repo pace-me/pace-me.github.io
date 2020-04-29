@@ -53,13 +53,6 @@
   <!-- Animate.min -->
   <link rel="stylesheet" type="text/css" href="static/home/css/animate.min.css">
 
-  <!-- <script>
-    function showResult() {
-      document.getElementById('formComplete').innerHTML = "Thank you for your interest in joining the team! We will contact you shortly.";
-      document.getElementById('newsletter').visibility = hidden;
-    }
-  </script> -->
-
   <script>
     var _vbset = _vbset || [];
     _vbset.push(['_account', 'VBT-04638-2152']);
@@ -85,65 +78,27 @@
   </div>
   <!--preloader end-->
   <div id="tophome"></div>
-  <!-- realhome for MOBILE (sort of) -->
-  <!-- this is our hacky/hidden behind fake div to displace the top video an equal amount relative to changing size of topbar-->
-  <div id="fakehome" class="navbar navbar-custom top-nav-collapse navbar4k" role="navigation"
-    style="display: contents !important; position: absolute !important; max-width: 100% !important;">
-    <div id="mySidenavfake" class="sidenav fakesidenav">
-      <a onclick="closeNav()" class="active page-scroll" href="#tophome">➤Home</a>
-      <a onclick="closeNav()" class="page-scroll" href="#app">➤App</a>
-      <a onclick="closeNav()" class="page-scroll" href="#videos">➤Videos</a>
-      <a onclick="closeNav()" class="page-scroll" href="#virtual-coaching">➤Virtual Coaching</a>
-      <a onclick="closeNav()" class="page-scroll" href="#about-review-full">➤Connect</a>
-    </div>
-    <button class="navbar-toggle" id="btnMenufake" type="button"> <i class="fa fa-bars"></i> </button>
-
-    <span style="float: top-left;"><a href="#page-top"><img class="logoimg"
-          src="static/home/img/home/logowhitelong_blackaccent.png"></a>
-      <span style="float: middle;"><img class="comingsoon" src="static/home/img/home/comingsooncsv.png"></a>
-
-        <span id="navBarCollapsefake"
-          class="navbar-collapse-fake navbar-right collapse navbar-collapse navbar-main-collapse"
-          style="text-align: right; ">
-
-          <ul id="navDesktopfake" class="nav navbar-nav desktop navbar-nav-desktop">
-            <li class="active"> <a style="font-size: 20px;" class="page-scroll" href="#tophome">Home</a> </li>
-            <li> <a style="font-size: 20px;" class="page-scroll" href="#app">App</a> </li>
-            <li> <a style="font-size: 20px;" class="page-scroll" href="#videotarget">Videos</a> </li>
-            <li> <a style="font-size: 20px;" class="page-scroll" href="#virtual-coaching">Virtual Coaching</a> </li>
-            <li> <a style="font-size: 20px;" class="page-scroll" href="#about-review-full">Connect</a> </li>
-          </ul>
-
-
-        </span>
-
-      </span>
-
-  </div>
-
   <!-- realhome for DESKTOP -->
   <div id="realhome" class="navbar navbar-custom navbar-fixed-top top-nav-collapse navbar4k" role="navigation"
     style="display: block !important; width: 100%; max-width: 100% !important;">
 
     <div id="mySidenav" class="sidenav">
-      <!--         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> meet-the-pros-m -->
       <a onclick="closeNav()" class="active page-scroll" href="#tophome">➤Home</a>
       <a onclick="closeNav()" class="page-scroll" href="#app">➤App</a>
       <a onclick="closeNav()" class="page-scroll" href="#videos">➤Videos</a>
       <a onclick="closeNav()" class="page-scroll" href="#virtual-coaching">➤Virtual Coaching</a>
       <a onclick="closeNav()" class="page-scroll" href="#about-review-full">➤Connect</a>
     </div>
-    <!-- class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse" -->
     <button class="navbar-toggle" id="btnMenu" type="button"> <i class="fa fa-bars"></i> </button>
 
-    <span style="float: top-left;"><a href="#page-top"><img class="logoimg"
-          src="static/home/img/home/logowhitelong_blackaccent.png"></a>
-      <span style="float: middle;"><img class="comingsoon" src="static/home/img/home/comingsooncsv.png"></a>
-
+    <span style="float: top-left;">
+      <a href="#page-top">
+        <img class="logoimg" src="static/home/img/home/logowhitelong_blackaccent.png">
+      </a>
+      <span style="float: middle;">
+        <img class="comingsoon" src="static/home/img/home/comingsooncsv.png">
         <span id="navBarCollapse" class="navbar-right collapse navbar-collapse navbar-main-collapse"
           style="text-align: right; ">
-          <!--  collapse navbar-collapse  navbar-main-collapse <a href="#contact-inner-o" class="theme-btn btn-orange page-scroll">Contact Us</a> -->
-
           <ul id="navDesktop" class="nav navbar-nav desktop navbar-nav-desktop">
             <li class="active"> <a style="font-size: 20px;" class="page-scroll" href="#tophome">Home</a> </li>
             <li> <a style="font-size: 20px;" class="page-scroll" href="#app">App</a> </li>
@@ -151,51 +106,21 @@
             <li> <a style="font-size: 20px;" class="page-scroll" href="#virtual-coaching">Virtual Coaching</a> </li>
             <li> <a style="font-size: 20px;" class="page-scroll" href="#about-review-full">Connect</a> </li>
           </ul>
-
-
         </span>
-
       </span>
-
   </div>
 
   <!-- END Nav Bar -->
   <!-- <div class="spacer" style="height: 10%;">
-    &nbsp;
 </div> -->
-  <!-- Header background-color: #666666; padding-top: 80px; height: 100% !important; padding-top: 0px !important; width: 100% !important; margin-top: 0px !important; -->
-  <div class="homevideorow">
-    <div class="homevideodiv">
-      <!-- <video style="padding-top:150px; object-fit: cover;" class="center-video" src="https://www.youtube.com/watch?v=M7lc1UVf-VE" controls poster="https://img.youtube.com/vi/IapFDyd6X9M/hqdefault.jpg" width="100%">⁪</video> -->
-      <!-- <video style="padding-top:0px; object-fit: cover;" class="center-video" src="static/home/videos/movie.MP4" controls width="100%">⁪</video> -->
-
-      <!-- <img id="homevideoplaybg" align="center" class="homevideoplaybg" src="static/home/videos/videosnap.png" alt=""> poster="static/home/videos/videosnap.png"-->
-      <video width="400" controls poster="static/home/videos/videosnap.png">
-        <source src="static/home/videos/Clayton.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
-      <!-- <iframe id="ytplayer" class="homevideo" type="text/html" src="https://www.youtube-nocookie.com/embed/oWICU7hF0-M?fs=0&amp;rel=0&amp;modestbranding=1"></iframe> -->
-      <!--         <span class="desktopbrs"><img onClick="playVid()" id="homevideoplaybtn" class="homevideoplaybtn active" src="static/home/img/3favicon.ico" alt=""></span> -->
-
-
-      <!-- width: fit-content !important; max-height: 100%; max-width: 100% !important; height: 100% !important; -->
-      <!-- VIDEO PROGRESS BAR BROKEN DURING DEMO
-        requires byterange request which is not supported when served via staticfiles; this will work when we move this server to apache -->
-
-      <!-- <progress id="myProgress" min="0" max="100" value="0"></progress>
-        <div class="controls"></div>    -->
-
-      <!-- <br><br> -->
-
-    </div>
+  <div class="homevideodiv">
+    <video width="400" controls poster="static/home/videos/videosnap.png">
+      <source src="static/home/videos/Clayton.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
   </div>
   <!-- End-Header -->
-
   <!-- Feature  -->
-  <!-- <div id="app"></div>
-<span class="desktopbrs"></span>
-<br><br><br> -->
-
 
   <div id="how-it-works">
 
@@ -302,24 +227,13 @@
 
 
   <!-- videos  -->
-  <!-- <span class="desktopbrs"><br><br><br></span> -->
   <div id="videos" style="padding-top: 0px;" class="text-center">
-
-
-
-    <!-- <span class="desktopbrs"><br><br><br><br></span> -->
-    <!-- <div id="videotarget"></div> -->
-
     <div class="container">
       <div class="section-title center">
         <br>
         <br>
         <br>
         <h2> <strong>Featured Video Categories</strong></h2>
-        <!-- <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. <strong>Lorem Ipsum has been the industry's standard dummy </strong>text
-    ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it to make a type specimen book. </p> -->
       </div>
       <div id="js-grid-blog-posts" class="cbp">
         <div class="cbp-item web-design print"> <a href="#videos" class="cbp-caption">
@@ -335,11 +249,6 @@
               </div>
             </div>
           </a> <a href="#" class="cbp-l-grid-blog-title">HITTING</a>
-          <!-- <div class="cbp-l-grid-blog-date">2 january 2016</div>
-    <div class="cbp-l-grid-blog-split">|</div>
-    <a href="#" class="cbp-l-grid-blog-comments">111 comments</a>
-    <div class="cbp-l-grid-blog-desc">Quis autem vel eum iure reprehenderit
-          qui in ea voluptate velit esse quam moles... </div> -->
         </div>
         <div class="cbp-item motion logos"> <a href="#videos" class="cbp-caption">
             <div class="cbp-caption-defaultWrap"> <img style="background: white;" src="static/home/img/PwP-logo.png"
@@ -354,11 +263,6 @@
               </div>
             </div>
           </a> <a href="#" class="cbp-l-grid-blog-title">PITCHING</a>
-          <!-- <div class="cbp-l-grid-blog-date">8 january 2016</div>
-    <div class="cbp-l-grid-blog-split">|</div>
-    <a href="#" class="cbp-l-grid-blog-comments">1 comments</a>
-    <div class="cbp-l-grid-blog-desc">Voluptas nulla pariatur? At vero eos
-          et accusamus et iusto odio dignissimos ducimu. </div> -->
         </div>
         <div class="cbp-item print motion"> <a href="#videos" class="cbp-caption">
             <div class="cbp-caption-defaultWrap"> <img style="background: white;" src="static/home/img/PwP-logo.png"
@@ -373,11 +277,6 @@
               </div>
             </div>
           </a> <a href="#" class="cbp-l-grid-blog-title">CATCHING</a>
-          <!-- <div class="cbp-l-grid-blog-date">10 january 2016</div>
-    <div class="cbp-l-grid-blog-split">|</div>
-    <a href="#" class="cbp-l-grid-blog-comments">54 comments</a>
-    <div class="cbp-l-grid-blog-desc">Perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium. Sed ut perspiciatis... </div> -->
         </div>
         <div class="cbp-item web-design print"> <a href="#videos" class="cbp-caption">
             <div class="cbp-caption-defaultWrap"> <img style="background: white;" src="static/home/img/PwP-logo.png"
@@ -392,11 +291,6 @@
               </div>
             </div>
           </a> <a href="#" class="cbp-l-grid-blog-title">INFIELD</a>
-          <!-- <div class="cbp-l-grid-blog-date">15 january 2016</div>
-    <div class="cbp-l-grid-blog-split">|</div>
-    <a href="#" class="cbp-l-grid-blog-comments">12 comments</a>
-    <div class="cbp-l-grid-blog-desc">Aenean vulputate eleifend tellus. Aenean
-          leo ligula, porttitor eu, voluptatem accusantium consequat vitae... </div> -->
         </div>
         <div class="cbp-item print logos"> <a href="#videos" class="cbp-caption">
             <div class="cbp-caption-defaultWrap"> <img style="background: white;" src="static/home/img/PwP-logo.png"
@@ -411,11 +305,6 @@
               </div>
             </div>
           </a> <a href="#" class="cbp-l-grid-blog-title">OUTFIELD</a>
-          <!-- <div class="cbp-l-grid-blog-date">25 january 2016</div>
-    <div class="cbp-l-grid-blog-split">|</div>
-    <a href="#" class="cbp-l-grid-blog-comments">6 comments</a>
-    <div class="cbp-l-grid-blog-desc">Sed ut perspiciatis unde omnis iste
-          natus error sit voluptatem voluptatem accusantium. </div>  style="backgro und: radial-gradient(at center center, rgb(5, 139, 173) 0%, rgb(5, 139, 173) 19%, rgb(176, 189, 189) 100%);"-->
         </div>
         <div class="cbp-item motion logos"> <a href="#videos" class="cbp-caption">
             <div class="cbp-caption-defaultWrap"> <img style="background: white;" src="static/home/img/PwP-logo.png"
@@ -424,294 +313,30 @@
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
                   <span style="float:top"><img class="comingsoon" src="static/home/img/home/comingsooncsv.png"></span>
-
                   <div class="cbp-l-caption-text">VIEW VIDEOS</div>
                 </div>
               </div>
             </div>
           </a> <a href="#" class="cbp-l-grid-blog-title">UNWRITTEN RULES <br>OF THE GAME</a>
-          <!-- <div class="cbp-l-grid-blog-date">28 january 2016</div>
-    <div class="cbp-l-grid-blog-split">|</div>
-    <a href="#" class="cbp-l-grid-blog-comments">3 comments</a>
-    <div class="cbp-l-grid-blog-desc">Sed ut perspiciatis unde omnis iste
-          natus error sit voluptatem accusantium. </div> -->
         </div>
       </div>
     </div>
   </div>
   <!-- END Blog  -->
 
-
-
-  <!-- TEMP REMOVED  -->
-  <!--
- <div id="meet-the-pros" class="blog-div-area">
-
-  <div id="meet-the-pros-m" class="container">
-    <div class="blog-content-div">
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12 blog-ma">
-          <div class="single-blog">
-            <div class="feature-images"> <img style="background-color: #ccc; " alt="blog" src="static/home/img/home/ScottVanSlyke.png"> 
-              <div class="overley"></div>
-            </div>
-            <div class="blog-content">
-              <h3>Scott Van Slyke</h3>
-              <ul>
-              </ul>
-              <p>
-Scott Van Slyke signed with the Los Angeles Dodgers as an 18 year old from John Burrough High School in St. Louis, Missouri.  He made his professional debut in the summer of 2005.  His Minor League career lasted 8 years, while batting .287 over than span and compiling 114 home runs while maintaining a .365 OBP. His Major League career spanned six seasons.  Scott was considered a 4th outfielder and hit .242 with a .326 OBP during his Major League career.  
-(highlight underlined content)
-Scott’s father, Andy Van Slyke, played over 13 years in the Major Leagues, made 3 All-Star appearances won 5 Gold Gloves, and 2 Silver-Slugger Awards.  Because of his access to professional instruction, Scott was able to take his game from average to elite.  With Scott’s background, he understands to value of learning from current or former major league baseball players.  
-Scott’s vision for Practice with Pros is to provide affordable access to the game’s most knowledgeable players.           
-                <span class="desktopbrs"><br><br><br><br><br></span>
-
-              
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md- col-sm-4 col-xs-12 blog-ma" style="padding-bottom: 15px;">
-          <div class="single-blog">
-            <div class="feature-images"> <img style="background-color: #ccc;" alt="blog" src="static/home/img/home/ClaytonKershaw.png"> 
-              <div class="overley"></div>
-            </div>
-            <div class="blog-content">
-              <h3>Clayton Kershaw</h3>
-              <ul>
-
-              </ul>
-              <p>
-                  Clayton Kershaw was the first pick by the Los Angeles Dodgers in 2006.  In his time with the Dodgers, he has compiled an impressive 8 All-Star selections, an MVP Award, 3 Cy Young Awards, a Gold Glove, and a Roberto Clemente Award.
-(highlight underlined section)
-Clayton’s vision for the future generation of baseball players aligns with the purpose behind Practice with Pros, to provide the highest levels of baseball instruction to anyone.  He desires for kids and parents from any background to have affordable access to world’s best instruction. 
-              
-              <span class="desktopbrs"><br><br><br><br><br><br><br><br><br><br></span>
-              
-              
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md- col-sm-4 col-xs-12 blog-ma">
-          <div class="single-blog">
-            <div class="feature-images"><img style="background-color: #ccc;" alt="blog" src="static/home/img/home/ShawnTolleson.png"> 
-              <div class="overley"></div>
-            </div>
-            <div class="blog-content">
-              <h3>Shawn Tolleson</h3>
-              <ul>
-
-              </ul>
-              <p>
-Shawn Tolleson, better known in baseball as “Tolley,” is a former Major League baseball player with the Los Angeles Dodgers and Texas Rangers. Shawn accelerated through Minor League baseball with a 132 innings pitched, striking out 192, and maintaining a 1.70 ERA. During his 6 seasons in the Major Leagues, Shawn held hitters to a .247 batting average and a sub 4.00 ERA. Shawn also never made an error in his entire Major League career.
-Shawn is most remembered for the 2015 season in which he served as the closer for the Texas Rangers. He finished the season with 35 saves and led Major League baseball with 22 saves after the All-Star break. He helped lead the Rangers to an improbable Post-Season appearance that year and finished 10th in Cy Young voting.
-(highlight underlined content)
-Shawn experienced a career that was derailed by injuries, and he has devoted himself to providing better instruction and awareness to young baseball players, parents, and coaches across the world.  
-Shawn’s vision for Practice with Pros is to bridge the gap between youth baseball and the pros.  He wants a resource for amatuer players to tap into professional coaching and desires to give all former pros an outlet to share their wealth of expertise.                  
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>  -->
-
-  <!-- End-Blog  -->
-
-  <!-- Download e-->
-  <!-- 
-<div id="virtual-coaching"></div>
-<span id="desktopbrs" class="desktopbrs"><br><br></span>
-<div style="background-color: white !important;">
-<br>
-    <div class="join-us-app" style="color: black !important;">
-        <div class="container">
-            <div class="row">
-                <div class="section-title center text-center">
-                    <h2 style="color: black !important; background-color: white !important;">MEET THE PROS</h2>
-                    <br>
-                </div>
-                <div class="col-sm-0 col-md-1 col-lg-2"></div>
-                
-                <div class="col-sm-12 col-md-10 col-lg-8">
-
-                    <div class="testimonial-slider fs-blog-carousel"  tyle="background-color: white !important;" data-col="1" data-row="1" data-responsive="1,1,1">
-                        <div class="swiper-container" style="background-color: white !important;">
-                            <div class="swiper-wrapper" style="background-color: white !important;">
-                    
-                                <div class="swiper-slide" style="background-color: white !important;">
-                                    <div class="swiper-holder" style="background-color: white !important;">
-                                       
-                                       <blockquote style="color: black !important; display: contents;">
-                                           <cite style="font-size: xx-large; background-color: white !important; color: black !important;">Shawn Tolleson</cite>
-                                           <p style="background-color: white !important; color: black !important;">
-                                                ○   Shawn played <b>9</b> seasons in professional baseball including <b>6</b> seasons at the Major League level.  
-                                                <span class="desktopbrs"> <br></span><br>○  Shawn’s most memorable moment was <b>throwing the final pitch to clinch a playoff berth for the Texas Rangers.</b>
-                                                <span class="desktopbrs"> <br></span><br>○  Shawn enjoys working with players <b>that need help finding a consistent pitching delivery.</b>
-                                                <span class="desktopbrs"><br> </span><br><br><b><i class="meetproquote" >Shawn looks forward to reviewing your video submissions to help you improve your game!</b></i>
-                                           </p>
-                                       </blockquote>
-                                       <span class="desktopbrs"> <br> <br></span>
-
-                                       <span style="float:right; size=100%;">
-                                       <img src="static/home/img/home/meettheprosst.png" alt="Scott">
-                                       </span>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide" style="background-color: white !important;">
-                                    <div class="swiper-holder" style="background-color: white !important;">
-                                     
-                                       <blockquote  style="color: black !important; display: contents;">
-                                            <cite style="font-size: xx-large; background-color: white !important; color: black !important;">Scott Van Slyke</cite>
-                                            <p style="text-alrign: right; background-color: white !important; color: black !important;">
-                                                ○   Scott played <b>13</b> seasons in professional baseball including <b>6</b> seasons at the Major League level.  
-                                                <span class="desktopbrs"> <br></span><br>○  Scott’s most memorable moment was <b>going up to bat against Aroldis Chapman</b> when he was pitching for the Cincinnati Reds.
-                                                <span class="desktopbrs"> <br></span><br>○  Scott looks forward to reviewing your video submissions to help you improve your game! <b><br></b>
-                                                <span class="desktopbrs"> <br></span><br><b><i class="meetproquote" >Scott enjoys working with players, helping them make more consistent contact at the plate. </b></i>
-                                            
-                                            </p>
-                                        </blockquote>
-                                        <span class="desktopbrs"> <br> <br></span>
-                                        <span style="float:right; size=30%;">
-                                        <img src="static/home/img/home/meettheprossc.png" alt="Scott">
-                                        </span>                                 
-                                            
-         
-                                    </div>
-                                </div>
-                            </div>
-                    
-                            <div class="fs-pager">
-                                <span>
-                                    <i class="fs-current-index">1</i> / <i class="fs-current-total">1</i>
-                                </span>
-                            </div>
-                    
-                        </div>
-                    
-                        <div class="swiper-button-prev swiper-prev">
-                            <i class="" style="line-height:unset;"></i>
-                        </div>
-                        <div class="swiper-button-next swiper-next">
-                           <i class="" style="line-height:unset;"></i>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-sm-0 col-md-1 col-lg-2"></div>
-                
-                 
-            </div>    
-        </div>    
-    </div>  
-
-</div> -->
-
-  <!-- MEET THE PROS slider section being replaced with 2 cofounder imgs -->
-
-  <!-- <br><br>
-<div id="virtual-coaching"></div>
-<span id="desktopbrs" class="desktopbrs"><br><br></span>
-<div style="background-color: white !important;">
-<br>
-    <div class="join-us-app">
-        <div class="container">
-            <div class="row">
-                <div class="section-title center text-center">
-                    <h2><strong>MEET THE PROS</strong></h2>
-                    <br>
-                </div>
-                <div class="col-sm-0 col-md-1 col-lg-1"></div>
-
-                <div class="meettheprosmid col-sm-12 col-md-10 col-lg-10">
-
-                    <div class="testimonial-slider fs-blog-carousel testimonial-slider-mob" data-col="1" data-row="1" data-responsive="1,1,1">
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="swiper-holder" style="padding-top: 2px;">
-                                       <cite class="procite" >&nbsp;&nbsp;Shawn Tolleson</cite><span style="font-size: small; font-family:'CenturyGothic';" >&nbsp; ~ Co-Founder</span>
-
-                                       <blockquote>
-                                           <p>
-                                                ○   Shawn played <b>9</b> seasons in professional baseball including <b>6</b> seasons at the Major League level.  
-                                                <span class="desktopbrs"> <br></span><br>○  Shawn’s most memorable moment was <b>throwing the final pitch to clinch a playoff berth for the Texas Rangers.</b>
-                                                <span class="desktopbrs"> <br></span><br>○  Shawn enjoys working with players <b>that need help finding a consistent pitching delivery.</b>
-                                                <span class="desktopbrs"><br> </span><br><br><b><i class="meetproquote" >Shawn looks forward to reviewing your video submissions to help you improve your game!</b></i>
-                                           </p>
-                                       </blockquote>
-                                       <span class="mtpspanimg" style="">
-                                       <img class="mtpimg" src="static/home/img/home/shawnt.png" alt="Shawn">
-                                       </span>
-                                    </div>
-                                </div>
-                                
-                                <div class="swiper-slide">
-                                    <div class="swiper-holder" style="padding-top: 2px;">
-                                       <cite class="procite" >&nbsp;&nbsp;Scott Van Slyke</cite><span style="font-size: small; font-family:'CenturyGothic';" >&nbsp; ~ Co-Founder</span>
-
-                                        <blockquote>
-
-                                            <p>
-                                                ○   Scott played <b>13</b> seasons in professional baseball including <b>6</b> seasons at the Major League level.  
-                                                <span class="desktopbrs"> <br></span><br>○  Scott’s most memorable moment was <b>going up to bat against Aroldis Chapman</b> when he was pitching for the Cincinnati Reds.
-                                                <span class="desktopbrs"> <br></span><br>○  Scott looks forward to reviewing your video submissions to help you improve your game! <b><br></b>
-                                                <span class="desktopbrs"> <br></span><br><b><i class="meetproquote" >Scott enjoys working with players, helping them make more consistent contact at the plate. </b></i>
-                                            </p>
-                                        </blockquote>
-                                        <span class="mtpspanimg" style="">
-                                        <img class="mtpimg" src="static/home/img/home/vans.png" alt="Shawn">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="fs-pager">
-                                <span>
-                                    <i class="fs-current-index">1</i> / <i class="fs-current-total">1</i>
-                                </span>
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-button-prev swiper-prev">
-                        </div>
-                        <div class="swiper-button-next swiper-next">
-                        </div>
-                    </div>
-
-                </div>
-                
-                <div class="col-sm-0 col-md-1 col-lg-1"></div>
-
-
-            </div>    
-        </div>    
-    </div>  
-    
-</div> -->
-
   <div id="virtual-coaching"> </div>
   <span class="desktopbrs"><br><br><br></span>
   <span class="mobilebrs"><br><br></span>
 
-
   <div>
     <div class="join-us-app">
       <div class="container">
-
-
         <span class="founders2">
           <div class="row">
             <span class="founderstitle">
               <h1 class="foundersheader" style="text-align: center; "><strong>CO-FOUNDERS</strong></h1>
             </span>
             <img class="mtpscreen" align="left" src="static/home/img/home/cf_scott_cropped_2.png">
-
             <img class="mtpscreen" align="right" src="static/home/img/home/cf_shawn_cropped.png">
           </div>
         </span>
@@ -731,31 +356,20 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
           </div>
         </span>
         <span class="desktopbrs"><br><br><br><br> </span>
-
-
       </div>
     </div>
 
     <br><br>
     <span id="aaaa" class="mobilebrs"><br><br><br></span>
-
     <!-- END Contact-->
     <span id="blackdiv">
     </span>
     <div id="about-review-full" class="about-review-full section-space parallax parallax-testimonial">
       <br>
-
       <div class="container">
         <div class="row">
           <span><img class="footerlogo" src="static/home/img/home/pwplogowhiteblackround.png"></span>
           <div class="col-md-8" style="float: unset !important;">
-            <!-- <div class="section-title center text-center">
-          <h2 class="white"><strong>Client's </strong> Review</h2>
-          <hr>
-          <div class="mid"></div>
-        </div> -->
-
-
             <div class="container f-b">
               <div id="newsletters">
                 <div class="low-back-up">
@@ -771,8 +385,6 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
                             <li><a target="_blank" href="https://twitter.com/practicewithpro"><i
                                   style="font-family: FontAwesome;" class="fa fa-twitter" aria-hidden="true"></i></a>
                             </li>
-                            <!--                           <li><a href="index2.html#"><i style="font-family: FontAwesome;" class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
-                            <!-- <li><a href="index2.html#"><i style="font-family: FontAwesome;" class="fa fa-youtube" aria-hidden="true"></i></a></li> -->
                             <li><a target="_blank" href="https://www.instagram.com/practice.with.pros/"><i
                                   style="font-family: FontAwesome;" class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
@@ -818,8 +430,8 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
               </div>
               <div class="f-b"><span class="">
                   <!-- <i class="fa fa-baseball-ball"></i> --></span> &copy; 2020 Practice with Pros, LLC
-                <!--             <br>Practice with Pros Mobile App process – Proprietary & Confidential -->
-                <!--             <br>Practice with Pros, LLC All Rights Reserved  -->
+                <!-- <br>Practice with Pros Mobile App process – Proprietary & Confidential -->
+                <!-- <br>Practice with Pros, LLC All Rights Reserved  -->
               </div>
               <div>
                 <h3 class="text-center"><a href="privacy.html">PRIVACY POLICY</a></h3>
@@ -827,64 +439,9 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
             </div>
           </div>
         </div>
-        <br><br>
+        <br>
+        <br>
       </div>
-
-
-
-
-      <!-- Footer -->
-      <!-- <br><br><br><br>
-<div id="footer-bottom" class="footer-bottom" >
-<br><br>
-<span style="float:right; height: 200px; width: 200px; margin-right: 280px;"><img src="/static/static/home/img/logo.png"></span>
-
-  <div class="container f-b">
-    <div id="newsletters">
-      <div class="low-back-up">
-        <div class="container">
-          <div class="row">
-            <div class="leadbot col-lg-8 col-md-offset-2 col-sm-offset-0 col-xm-offset-0 col-xm-12 text-center">
-              <div class="social-media text-center">
-                <ul>
-                  <li><a href="index2.html#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="index2.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="index2.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                  <li><a href="index2.html#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                  <li><a href="index2.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-              <div class="newsletter text-center">
-                <h3 class="white">SUBSCRIBE TO <span class="black"><strong>OUR NEWSLETTER</strong></span></h3>
-                <form action="#" method="post" id="newsletter">
-                  <div class="newsletter-content">
-                    <input type="text" name="email" placeholder="Enter your Email address">
-                    <button type="submit" class="button"><span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span></button>
-                    
-                  </div>
-                </form>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="f-b"><span class="heart"><i class="fa fa-baseball-ball"></i></span> &copy; 2020
-    <br>Practice with Pros Mobile App process – Proprietary & Confidential
-    <br>Practice with Pros, LLC All Rights Reserved
-    </div>
-</div> -->
-
-
-
-
-      <!-- </div>
-  <div class="row" style="height: 300px; width: 100%; background-image:url('static/home/img/home/granitebg.PNG')">
-</div> -->
-
-
-      <!-- END Footer-->
 
       <!-- All Template -->
       <!-- <div class="buy-theme alt-font xs-display-none"><a href="static/home/index.html" target="_blank"><i class="fa fa-share"></i> <span>All Teamplate</span></a></div> -->
@@ -930,24 +487,24 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
       <script src="static/home/js/swiper.js"></script>
 
       <!-- <script>// Below Function Executes On Form Submit
-        function ValidationEvent() {
-          // alert("It worked!");
-          // Storing Field Values In Variables
-          let email = document.getElementById("email").value;
-          // Regular Expression For Email
-          let emailReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-          // Conditions
-          if (email != '') {
-            if (email.match(emailReg)) {
-              alert("It worked!");
-              return true;
-            } else {
-              alert("Please enter a valid email address");
-              return false;
-            }
-          }
+    function ValidationEvent() {
+      // alert("It worked!");
+      // Storing Field Values In Variables
+      let email = document.getElementById("email").value;
+      // Regular Expression For Email
+      let emailReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      // Conditions
+      if (email != '') {
+        if (email.match(emailReg)) {
+          alert("It worked!");
+          return true;
+        } else {
+          alert("Please enter a valid email address");
+          return false;
         }
-      </script> -->
+      }
+    }
+  </script> -->
 
       <script>
         $('.owl-carousel').owlCarousel({
@@ -1037,55 +594,7 @@ Shawn’s vision for Practice with Pros is to bridge the gap between youth baseb
             }
           });
         });
-
-
-
-        function playVid() {
-          var ctrlVideo = document.getElementById("homevideo");
-          var btn = document.getElementById("homevideoplaybtn");
-
-          ctrlVideo.play();
-          btn.style.display = 'none';
-          if (btn.hasClass("active")) {
-            ctrlVideo.play();
-            btn.toggleClass("active");
-            btn.style.display = 'none';
-          } else {
-            ctrlVideo.pause();
-            btn.toggleClass("active");
-            btn.style.display = 'block';
-          }
-        }
-
       </script>
 </body>
 
 </html>
-
-
-<!-- $( document ).ready(function() {
-    var ctrlVideo = document.getElementById("homevideo"); 
-    var btn = document.getElementById("homevideoplaybtn"); 
-    var bg = document.getElementById("homevideoplaybg"); 
-    btn.click(function(){
-      if (btn.hasClass("active")){
-            ctrlVideo.play();
-        btn.toggleClass("active");
-        btn.style.display = 'none';
-        } else {
-            ctrlVideo.pause();
-        btn.toggleClass("active");
-        btn.style.display = 'block';
-      }
-    });
-    });
-     -->
-
-<!-- navBarCollapse = document.getElementById('navBarCollapse');
-        navBarCollapse.Attributes('display') = 'inline-block';
-        navBarCollapse.Attributes('width') = '40%'; -->
-
-<!-- navDesktop = document.getElementById('navDesktop');
-        navMobile = document.getElementById('navMobile');
-        navDesktop.hidden = true;
-        navMobile.hidden = false; -->
